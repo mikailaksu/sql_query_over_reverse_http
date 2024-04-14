@@ -56,7 +56,7 @@ def main(q, conn):
 			print(send_post_request(url, snc)) #cevabı yollar
 			
 if __name__ == "__main__":
-	url = "http://localhost/WebServer/api.php"
+	url = "http://localhost/WebServer/api.php" #web sunucusuna kurduğunuz apinin url adresi
 	database = "database" #buraya sorgu çalıştıracağınız database adını gir
 	key = "AAAAAAAAAAAAAAAA" #aes cevabı decrypt etmek için
 	threadsToRun = 32
