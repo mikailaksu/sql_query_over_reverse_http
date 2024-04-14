@@ -1,4 +1,4 @@
-# sql_query_over_reverse_http
+# SQL Query Over Reverse HTTP
 Dışa ağa kapalı (tüm portları kapalı) MySql sunucuna Ters HTTP istekleri ile sorgulama yapmak.
 
 ![](https://i.hizliresim.com/a7eut0g.png)
