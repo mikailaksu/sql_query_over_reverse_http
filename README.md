@@ -1,7 +1,9 @@
 # sql_query_over_reverse_http
 Dışa ağa kapalı (tüm portları kapalı) MySql sunucuna Ters HTTP istekleri ile sorgulama yapmak.
 
-## Senaryo:
+![](https://i.hizliresim.com/a7eut0g.png)
+
+## Senaryo
 Bir web sunucunuz var ve başka bir ağda bir mysql sununuz var. İkisini birbiriyle haberleştirmek istiyorsunuz ama mysql sunucunuzun herhangi bir portunu açmak istemiyorsunuz/açamıyorsunuz. (Hassas verileriniz olabilir veya CGNAT olduğu için açamıyor olabilirsiniz.)
 Peki ne yapacaksınız. ya sabit ipsi olan sunucuya taşıyacaksınız. bir api servisi kurup http ile haberleşeceksiniz ya da vpn kullanacaksınız başka yolu yok.
 bu çözümlerin hepsinde dışarıya bir port açmanız lazım. (vpn'i web sunucusuna kurup sql sunucundan client ile bağlanmak dışında.)
