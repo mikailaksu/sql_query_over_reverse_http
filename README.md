@@ -38,4 +38,4 @@ Siber güvenlikte reverse TCP methodu ile sızdığımız bir makinaya bağlanab
 
   * web tarafı php ile yazılmıştır.
   * mysql serverda çalışacak yazılım python ile yazılmıştır.
-    
+  * threading sayesinde birçok sorguyu aynı anda yapabilecek çoklu işleme sahiptir.
